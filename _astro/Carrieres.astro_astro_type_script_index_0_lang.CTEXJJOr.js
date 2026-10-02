@@ -1,0 +1,1 @@
+import{t as e}from"./formulaires.zlrz18lB.js";e(),document.querySelectorAll(`[data-postuler]`).forEach(e=>e.addEventListener(`click`,()=>{let t=document.querySelector(`[data-poste]`);t&&(t.value=e.dataset.postuler,t.dispatchEvent(new Event(`change`))),document.getElementById(`candidature`)?.scrollIntoView({behavior:`smooth`})}));

@@ -1,0 +1,1 @@
+var e=`gpbloc-temoins`;function t(){try{let t=localStorage.getItem(e);return t===`acceptes`||t===`refuses`?t:null}catch{return null}}function n(t){try{localStorage.setItem(e,t)}catch{}window.dispatchEvent(new CustomEvent(`temoins:choix`,{detail:t}))}export{t as n,n as t};
